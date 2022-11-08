@@ -47,7 +47,7 @@
             // 
             // btnPre
             // 
-            this.btnPre.Location = new System.Drawing.Point(212, 490);
+            this.btnPre.Location = new System.Drawing.Point(221, 490);
             this.btnPre.Name = "btnPre";
             this.btnPre.Size = new System.Drawing.Size(85, 39);
             this.btnPre.TabIndex = 1;
@@ -68,7 +68,7 @@
             // lbPageNumber
             // 
             this.lbPageNumber.AutoSize = true;
-            this.lbPageNumber.Location = new System.Drawing.Point(347, 501);
+            this.lbPageNumber.Location = new System.Drawing.Point(348, 501);
             this.lbPageNumber.Name = "lbPageNumber";
             this.lbPageNumber.Size = new System.Drawing.Size(44, 16);
             this.lbPageNumber.TabIndex = 3;
@@ -84,7 +84,7 @@
             this.Controls.Add(this.btnPre);
             this.Controls.Add(this.gvCustomer);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "Danh sách khách hàng";
             this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.gvCustomer)).EndInit();
             this.ResumeLayout(false);
