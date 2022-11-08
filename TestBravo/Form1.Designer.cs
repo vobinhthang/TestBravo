@@ -42,12 +42,12 @@
             this.gvCustomer.Name = "gvCustomer";
             this.gvCustomer.RowHeadersWidth = 51;
             this.gvCustomer.RowTemplate.Height = 24;
-            this.gvCustomer.Size = new System.Drawing.Size(726, 389);
+            this.gvCustomer.Size = new System.Drawing.Size(726, 447);
             this.gvCustomer.TabIndex = 0;
             // 
             // btnPre
             // 
-            this.btnPre.Location = new System.Drawing.Point(177, 441);
+            this.btnPre.Location = new System.Drawing.Point(212, 490);
             this.btnPre.Name = "btnPre";
             this.btnPre.Size = new System.Drawing.Size(85, 39);
             this.btnPre.TabIndex = 1;
@@ -57,7 +57,7 @@
             // 
             // btnNext
             // 
-            this.btnNext.Location = new System.Drawing.Point(424, 441);
+            this.btnNext.Location = new System.Drawing.Point(458, 490);
             this.btnNext.Name = "btnNext";
             this.btnNext.Size = new System.Drawing.Size(85, 39);
             this.btnNext.TabIndex = 2;
@@ -68,7 +68,7 @@
             // lbPageNumber
             // 
             this.lbPageNumber.AutoSize = true;
-            this.lbPageNumber.Location = new System.Drawing.Point(319, 452);
+            this.lbPageNumber.Location = new System.Drawing.Point(347, 501);
             this.lbPageNumber.Name = "lbPageNumber";
             this.lbPageNumber.Size = new System.Drawing.Size(44, 16);
             this.lbPageNumber.TabIndex = 3;
@@ -78,7 +78,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(756, 529);
+            this.ClientSize = new System.Drawing.Size(756, 575);
             this.Controls.Add(this.lbPageNumber);
             this.Controls.Add(this.btnNext);
             this.Controls.Add(this.btnPre);

@@ -40,7 +40,7 @@ namespace TestBravo
             string connStr = "Data Source=THANG-PC\\SQLEXPRESS; Initial Catalog=TestBravo; User ID=sa;Password=sa123";
             string query = @"DECLARE @PageNumber AS INT
                             DECLARE @RowsOfPage AS INT
-                            SET @PageNumber="+pageNumber+"SET @RowsOfPage="+rowOfPage+"SELECT * FROM [tbl_Customer]ORDER BY Id OFFSET (@PageNumber-1)*@RowsOfPage ROWS FETCH NEXT @RowsOfPage ROWS ONLY";
+                            SET @PageNumber="+pageNumber+"SET @RowsOfPage="+rowOfPage+"SELECT Id, CustomerCode as [Mã], Fullname as [Tên], Address as [Địa chỉ] FROM [tbl_Customer]ORDER BY Id OFFSET (@PageNumber-1)*@RowsOfPage ROWS FETCH NEXT @RowsOfPage ROWS ONLY";
 
 
             SqlConnection conn = new SqlConnection(connStr);
