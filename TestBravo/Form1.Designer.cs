@@ -47,7 +47,7 @@
             // 
             // btnPre
             // 
-            this.btnPre.Location = new System.Drawing.Point(221, 490);
+            this.btnPre.Location = new System.Drawing.Point(202, 490);
             this.btnPre.Name = "btnPre";
             this.btnPre.Size = new System.Drawing.Size(85, 39);
             this.btnPre.TabIndex = 1;
@@ -57,7 +57,7 @@
             // 
             // btnNext
             // 
-            this.btnNext.Location = new System.Drawing.Point(458, 490);
+            this.btnNext.Location = new System.Drawing.Point(442, 490);
             this.btnNext.Name = "btnNext";
             this.btnNext.Size = new System.Drawing.Size(85, 39);
             this.btnNext.TabIndex = 2;
@@ -68,7 +68,7 @@
             // lbPageNumber
             // 
             this.lbPageNumber.AutoSize = true;
-            this.lbPageNumber.Location = new System.Drawing.Point(348, 501);
+            this.lbPageNumber.Location = new System.Drawing.Point(343, 501);
             this.lbPageNumber.Name = "lbPageNumber";
             this.lbPageNumber.Size = new System.Drawing.Size(44, 16);
             this.lbPageNumber.TabIndex = 3;
